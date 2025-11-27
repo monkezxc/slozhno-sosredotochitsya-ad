@@ -23,7 +23,7 @@
 }
 
 .header__intro {
-  margin-block-start: 65px;
+  margin-block-start: 55px;
   position: absolute;
   right: 10px;
   width: 355px;
@@ -127,6 +127,9 @@
 }
 
 @media (width >= 768px) {
+  .content-block {
+    padding-top: 60px
+  }
   .header__intro {
     margin-block-start: 162px;
     width: 355px;
@@ -208,6 +211,10 @@
 }
 
 @media (width >= 1024px) {
+  .content-section-what__title {
+    width: calc((100% - var(--item-gap) * 2)/3)
+  }
+
   .content-section-what__info {
     grid-template-columns: repeat(3, 1fr);
   }
