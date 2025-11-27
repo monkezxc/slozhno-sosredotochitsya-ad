@@ -257,6 +257,10 @@
     margin-top: 114px;
     width: 491px;
   }
+
+  .content-section-how {
+    gap: 10px;
+  }
 }
 
 .content-item__info {
@@ -385,8 +389,14 @@
     margin-block-start: 60px
   }
 
-  .content-section-what {
-    gap: 20px;
+  .footer::before {
+    top: 20px;
+    right: 20px;
   }
 
+  
+  .footer::after {
+    bottom: 20px;
+    left: 20px;
+  }
 }
