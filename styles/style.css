@@ -133,6 +133,10 @@
   line-height: inherit;
 }
 
+.content-item {
+  gap: 20px;
+}
+
 @media (width >= 768px) {
   .content-block {
     padding-top: 60px
@@ -223,6 +227,10 @@
   .content-section-what__title {
     width: calc((100% - var(--item-gap) * 2)/3)
   }
+
+  .header__theme-menu-list {
+    gap: 10px;
+  }
 }
 
 @media (width >= 1024px) {
@@ -238,7 +246,8 @@
 
   .header__theme-menu-list {
     flex-direction: row;
-  }
+    gap: 10px;
+    }
 
   .header__title {
     margin-top: 293px;
@@ -248,14 +257,6 @@
     margin-top: 114px;
     width: 491px;
   }
-
-  .header__theme-menu-list {
-    gap: 10px
-  }
-}
-
-.content-item {
-  gap: 5px;
 }
 
 .content-item__info {
